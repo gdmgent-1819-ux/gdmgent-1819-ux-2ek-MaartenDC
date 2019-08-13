@@ -1,0 +1,264 @@
+
+body{
+	margin: 0;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	background-image: url(../images/backgroundimg.jpg);
+}
+ a{
+	text-decoration: none;
+	color: white;
+	transition: 0.2s all;
+	-webkit-transition: 0.2s all;
+	-o-transition: 0.2s all;
+	-moz-transition: 0.2s all;
+	-ms-transition: 0.2s all;
+}
+
+
+.container{
+	color: white;
+  	clear:both;
+	overflow:auto;
+	background-color: #1F9B8B;
+
+	height: 100px;
+}
+
+nav{float:right;
+	margin-right: 2%;
+		}
+
+.logo img{float:left;
+					margin-left: 5%;
+	}
+
+ul li {
+	display: inline-block;
+	padding-top:4%;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size:1.2em; 
+	font-family:sans-serif;
+	list-style-type: none;
+}
+a:hover {
+  color:#264653;
+  
+}
+
+
+ul {
+	padding: 0;
+	margin: 0;	
+}
+
+#wrapper{ 	height: 100 vh;
+			width: 100%;
+			margin: auto;
+		background-color: grey;}
+#left{ 
+	height: 965px;
+		width: 370px;
+		background-color: white;
+	 float: left;
+	color: white;
+margin: auto;
+margin-left: 5%;}
+	
+#right{ 
+height: 100%;
+width: 50%;
+
+float: left;
+margin-left: 2%;
+margin-top: 25px;
+color: white;}
+
+#schoolinfo
+{margin: auto;
+width: 100%;
+margin-top: 25px;}
+
+		
+		
+		
+h3{ padding-top: 20px;
+padding-bottom: 20px;
+width: 100%;
+background-color:#264653;
+display:block;
+float: left;
+margin: 0;
+color: white;
+text-align: center;
+font-weight: 300;}
+
+h3:hover{ background-color: #1F9B8B;
+			color: white;}
+
+#tekstkollomen{ width: 300px;
+				height: 260px;
+				float: left;
+				display: block;
+				margin-left: 2%;
+				color:#264653;}
+
+#specials{ width: 20%;
+			background-color: #264653;
+		height: 100px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 30px;}
+
+#specials:hover{ 
+	background-color: #1F9B8B;
+			color: white;
+}
+
+.footer{ position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color:#1F9B8B;
+	color: white;
+	text-align: center;}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+ margin: 0;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 70%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color:black;
+  background-color: rgba(0,0,0,0.8)
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color:lightgrey;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #264653;;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media(max-width:640px){
+body{ background-image: none;}
+	
+	.container{width: 100%;
+	
+	}
+	nav{ width: 50%;
+		font-size: 70%;
+		display: inline;
+		margin-top: 10px;}
+
+	.leftimg{ width: 100%;
+				
+			}
+	#left{width: 40%;
+		font-size: 70%;
+		padding: 2px;
+		float: left;}
+
+	#right{ 
+	
+
+	float: left;
+	width: 50%;
+	height: 48em;
+	overflow: auto;
+	
+	padding-left: .5em;}
+
+
+	#tekstkollomen{ width: 80%;
+					margin-bottom: 30%;}
+
+.slideshow-container { width: 100%;}
+
+.prev, .next {
+	margin-top: 100%;
+  }
+
+  #specials	{ width: 90%;
+			margin-top: -20%;
+				}
+
+	
+
+
+
+
+
+}
